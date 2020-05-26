@@ -14,6 +14,8 @@
 	<files>
 		<filename plugin="jcodesyntaxhighlighter">jcodesyntaxhighlighter.php</filename>
 		<filename>manifest.xml</filename>
+		<folder>changelog</folder>
+		<folder>fields</folder>
 	</files>
 
 	<languages folder="language">
@@ -82,6 +84,15 @@
 						<option value="0">JNO</option>
 						<option value="1">JYES</option>
 				</field>
+			</fieldset>
+
+			<fieldset name="changelog" addfieldpath="plugins/content/jcodesyntaxhighlighter/fields">
+				<field
+					name="changelog"
+					type="jcodesyntaxhighlighter"
+					class="textarea"
+					hidden="true"
+					display="changelog" />
 			</fieldset>
 		</fields>
 	</config>

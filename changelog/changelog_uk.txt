@@ -1,0 +1,11 @@
+# 03.02.2020 Версія 1.0.1
+- плагін оновлено до версії Prism JS 1.19.0,
+- додано мову: LESS,
+- додано локалізації: англійська (en-GB), українська (uk-UA).
+
+# 27.12.2019 Версія 1.0.0
+- плагін створено на основі модульної бібліотеки Prism JS 1.18.0, https://prismjs.com,
+- додано скрипти: line numbers, autolinker, previewers, copy to clipboard button,
+- додано мови: C, C++, C#, CSS, HTML/XML, Java, Javascript, MathML, PHP, Python, Ruby, SQL, SVG,
+- додано шаблони: default, dark, okaidia, tomorrow night,
+- додано сервер для автоматичного оновлення плагіна в панелі керування.

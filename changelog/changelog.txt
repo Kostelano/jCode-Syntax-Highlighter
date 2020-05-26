@@ -1,0 +1,11 @@
+# 03.02.2020 Version 1.0.1
+- plugin updated to version Prism JS 1.19.0,
+- added language: LESS,
+- added localization: english (en-GB), ukrainian (uk-UA).
+
+# 27.12.2019 Version 1.0.0
+- plugin is based on the modular library of Prism JS 1.18.0, https://prismjs.com,
+- added scripts: line numbers, autolinker, previewers, copy to clipboard button,
+- added languages: C, C++, C#, CSS, HTML/XML, Java, Javascript, MathML, PHP, Python, Ruby, SQL, SVG,
+- added templates: default, dark, okaidia, tomorrow night,
+- added server to automatically update the plugin in the control panel.
