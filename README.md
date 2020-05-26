@@ -8,7 +8,7 @@ Languages: `C`, `C++`, `C#`, `CSS`, `HTML/XML`, `Java`, `Javascript`, `LESS`, `M
 [jCode Syntax Highlighter](https://jnotes.net.ua/ext/jcode-syntax-highlighter)
 
 ## Version
-![version](https://img.shields.io/badge/stable-1.0.1-blue?style=for-the-badge)
+![version](https://img.shields.io/badge/stable-1.0.1-blue?style=for-the-badge) ![version-dev](https://img.shields.io/badge/dev-1.1.0-red?style=for-the-badge)
 
 ## System requirements
 ![joomla-version](https://img.shields.io/badge/joomla-3.9x-green?style=for-the-badge) ![php-version](https://img.shields.io/badge/php-7.3x-green?style=for-the-badge)
