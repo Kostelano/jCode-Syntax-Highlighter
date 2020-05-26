@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3" type="plugin" group="content" method="upgrade">
 	<name>PLG_JCODE_SYNTAX_HIGHLIGHTER_XML</name>
-	<version>1.0.1</version>
+	<version>1.1.0-Dev</version>
 	<creationDate>03/02/2020</creationDate>
 	<author>Konstantin Kolos</author>
 	<authorEmail>admin@jnotes.net.ua</authorEmail>
