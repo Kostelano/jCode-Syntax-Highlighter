@@ -17,6 +17,6 @@
 		<maintainerurl>http://jnotes.net.ua</maintainerurl>
 		<section>Updates</section>
 		<targetplatform name="joomla" version="3.9"/>
-		<client>0</client>
+		<client>site</client>
 	</update>
 </updates>
