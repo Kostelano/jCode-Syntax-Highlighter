@@ -41,8 +41,9 @@
 					default="default"
 					label="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_LABEL"
 					description="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_DESC">
-						<option value="default">Default</option>
+						<option value="coy">Coy</option>
 						<option value="dark">Dark</option>
+						<option value="default">Default</option>
 						<option value="okaidia">Okaidia</option>
 						<option value="tomorrownight">Tomorrow Night</option>
 				</field>
