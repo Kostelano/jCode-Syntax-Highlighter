@@ -6,7 +6,7 @@
 		<folder>content</folder>
 		<type>plugin</type>
 		<version>1.0.1</version>
-		<infourl title="jCode Syntax Highlighter 1.0.1">http://jnotes.net.ua/ext/jcode-syntax-highlighter</infourl>
+		<infourl title="jCode Syntax Highlighter 1.0.1">https://jnotes.net.ua/ext/jcode-syntax-highlighter</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/Kostelano/jCode-Syntax-Highlighter/releases/download/1.0.1/plg_jcodesyntaxhighlighter_1.0.1.zip</downloadurl>
 		</downloads>
@@ -14,7 +14,7 @@
 			<tag>stable</tag>
 		</tags>
 		<maintainer><![CDATA[ Jnotes.net.ua ]]></maintainer>
-		<maintainerurl>http://jnotes.net.ua</maintainerurl>
+		<maintainerurl>https://jnotes.net.ua</maintainerurl>
 		<section>Updates</section>
 		<targetplatform name="joomla" version="3.9"/>
 		<client>site</client>
