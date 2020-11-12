@@ -16,6 +16,6 @@ Languages: `C`, `C++`, `C#`, `CSS`, `HTML/XML`, `Java`, `Javascript`, `LESS`, `M
 ## Copyright
 Copyright (C) 2019-2020 Konstantin Kolos, [Jnotes.net.ua](https://jnotes.net.ua). All rights reserved.
 
-Distributed under the [GNU General Public License v3](http://gnu.org/licenses/gpl-3.0.html)
+Distributed under the [GNU General Public License v3](https://gnu.org/licenses/gpl-3.0.html)
 
 This project is open source project, feel free to contribute! Thank you.
