@@ -1,10 +1,16 @@
-# 03.02.2020 Версія 1.0.1
-- плагін оновлено до версії Prism JS 1.19.0,
+# 14.11.2020 | Версія 1.2.0
+- плагін оновлено до версії Prism JS 1.22.0, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1220-2020-10-10,
+- додано скрипт для перевірки мінімальних системних вимог (Joomla 3.9, PHP 7.2),
+- оновлені назви класів для Joomla 3.9 / 4.0 (API),
+- виправлена помилка виклику невизначеного методу для Joomla 4.0.
+
+# 03.02.2020 | Версія 1.0.1
+- плагін оновлено до версії Prism JS 1.19.0, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1190-2020-01-13,
 - додано мову: LESS,
 - додано локалізації: англійська (en-GB), українська (uk-UA).
 
-# 27.12.2019 Версія 1.0.0
-- плагін створено на основі модульної бібліотеки Prism JS 1.18.0, https://prismjs.com,
+# 27.12.2019 | Версія 1.0.0
+- плагін створено на основі модульної бібліотеки Prism JS 1.18.0, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1180-2020-01-04,
 - додано скрипти: line numbers, autolinker, previewers, copy to clipboard button,
 - додано мови: C, C++, C#, CSS, HTML/XML, Java, Javascript, MathML, PHP, Python, Ruby, SQL, SVG,
 - додано шаблони: default, dark, okaidia, tomorrow night,

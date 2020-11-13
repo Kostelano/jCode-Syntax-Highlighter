@@ -1,10 +1,16 @@
-# 03.02.2020 Version 1.0.1
-- plugin updated to version Prism JS 1.19.0,
-- added language: LESS,
-- added localization: english (en-GB), ukrainian (uk-UA).
+# 14.11.2020 | Version 1.2.0
+- plugin updated to Prism JS 1.22.0, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1220-2020-10-10,
+- added script to check the minimum system requirements (Joomla 3.9, PHP 7.2),
+- updated class names for Joomla 3.9 / 4.0 (API),
+- fixed error of calling undefined method for Joomla 4.0.
 
-# 27.12.2019 Version 1.0.0
-- plugin is based on the modular library of Prism JS 1.18.0, https://prismjs.com,
+# 03.02.2020 | Version 1.0.1
+- plugin updated to Prism JS 1.19.0, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1190-2020-01-13,
+- added language: LESS,
+- added localizations: english (en-GB), ukrainian (uk-UA).
+
+# 27.12.2019 | Version 1.0.0
+- plugin is based on the Prism JS 1.18.0 modular library, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1180-2020-01-04,
 - added scripts: line numbers, autolinker, previewers, copy to clipboard button,
 - added languages: C, C++, C#, CSS, HTML/XML, Java, Javascript, MathML, PHP, Python, Ruby, SQL, SVG,
 - added templates: default, dark, okaidia, tomorrow night,
