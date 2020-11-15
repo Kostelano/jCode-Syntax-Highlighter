@@ -37,7 +37,6 @@
 				<field
 					name="template"
 					type="list"
-					size="30"
 					default="default"
 					label="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_LABEL"
 					description="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_DESC">
