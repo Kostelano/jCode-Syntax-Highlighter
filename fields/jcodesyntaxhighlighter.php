@@ -73,6 +73,7 @@ class JFormFieldjCodeSyntaxHighlighter extends FormField
 
 		} else {
 			$ouput = '';
+
 		}
 
 		return $output;
@@ -84,10 +85,10 @@ class JFormFieldjCodeSyntaxHighlighter extends FormField
 		$output = JPATH_PLUGINS . '/content/jcodesyntaxhighlighter/changelog/changelog';
 
 		$lang = substr(Factory::getLanguage()->getTag(), 0, 2);
-		$file = $output.'_'.$lang.'.txt';
+		$file = $output . '_' . $lang . '.txt';
 
 		if (!file_exists($file)) {
-			$file = $output.'.txt';
+			$file = $output . '.txt';
 		}
 
 		if (file_exists($file)) {
@@ -95,9 +96,10 @@ class JFormFieldjCodeSyntaxHighlighter extends FormField
 
 		} else {
 			$output = '';
+
 		}
 
-		$output = '<pre style="overflow: visible;">'.$output.'</pre>';
+		$output = '<pre style="display: inline-block; width: 98%; overflow: visible;">' .$output. '</pre>';
 
 		return $output;
 	}
