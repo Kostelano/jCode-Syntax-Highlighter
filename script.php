@@ -2,7 +2,7 @@
 /**
  * @package	jCode Syntax Highlighter
  * @author	Konstantin Kolos
- * @copyright	Copyright (C) 2019-2020 Jnotes.net.ua. All rights reserved
+ * @copyright	Copyright (C) 2019 - 2021 Jnotes.net.ua. All rights reserved
  * @contact	https://jnotes.net.ua, admin@jnotes.net.ua
  * @license	https://gnu.org/licenses/gpl-3.0.html, GNU/GPLv3
  */
