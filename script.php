@@ -9,7 +9,14 @@
 
 defined('_JEXEC') or die;
 
-class PlgContentjCodeSyntaxHighlighterInstallerScript
+use Joomla\CMS\Installer\InstallerScript;
+
+/**
+ * Installation class to perform additional changes during Install / Uninstall / Update
+ *
+ * @since 1.3.0
+ */
+class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 {
 	const MIN_VERSION_JOOMLA = '3.9.0';
 	const MIN_VERSION_PHP = '7.2.0';
@@ -22,6 +29,34 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript
 	protected $extensionName = 'jCode Syntax Highlighter';
 
 	/**
+	 * Extension script constructor
+	 *
+	 * @since 1.3.0
+	 */
+	public function __construct()
+	{
+		$this->deleteFiles = array(
+			// media
+			// '/media/plg_content_jcodesyntaxhighlighter/css/okaidia.css',
+		);
+	}
+
+	/**
+	 * Function to perform changes during postflight
+	 *
+	 * @param string            $type    The action being performed
+	 * @param ComponentAdapter  $parent  The class calling this method
+	 *
+	 * @return void
+	 *
+	 * @since 1.3.0
+	 */
+	public function postflight($type, $parent)
+	{
+		$this->removeFiles();
+	}
+
+	/**
 	 * Checks compatibility in the preflight event
 	 *
 	 * @param $type
@@ -32,11 +67,13 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript
 	 */
 	public function preflight($type, $parent)
 	{
-		if (!$this->checkVersionJoomla()) {
+		if (!$this->checkVersionJoomla())
+		{
 			return false;
 		}
 
-		if (!$this->checkVersionPhp()) {
+		if (!$this->checkVersionPhp())
+		{
 			return false;
 		}
 
@@ -53,7 +90,8 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript
 	{
 		$version = new JVersion();
 
-		if (!$version->isCompatible(self::MIN_VERSION_JOOMLA)) {
+		if (!$version->isCompatible(self::MIN_VERSION_JOOMLA))
+		{
 			JFactory::getApplication()->enqueueMessage(JText::sprintf('JN_ERROR_JOOMLA_VERSION', $this->extensionName, self::MIN_VERSION_JOOMLA), 'error');
 
 			return false;
@@ -70,7 +108,8 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript
 	 */
 	private function checkVersionPhp()
 	{
-		if (!version_compare(phpversion(), self::MIN_VERSION_PHP, 'ge')) {
+		if (!version_compare(phpversion(), self::MIN_VERSION_PHP, 'ge'))
+		{
 			JFactory::getApplication()->enqueueMessage(JText::sprintf('JN_ERROR_PHP_VERSION', $this->extensionName, self::MIN_VERSION_PHP), 'error');
 
 			return false;
