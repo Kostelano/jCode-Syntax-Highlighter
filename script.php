@@ -37,23 +37,10 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 	{
 		$this->deleteFiles = array(
 			// media
-			// '/media/plg_content_jcodesyntaxhighlighter/css/okaidia.css',
+			// '/media/plg_content_jcodesyntaxhighlighter/css/file1.css',
+			// '/media/plg_content_jcodesyntaxhighlighter/css/file2.css',
+			// '/media/plg_content_jcodesyntaxhighlighter/css/file3.css',
 		);
-	}
-
-	/**
-	 * Function to perform changes during postflight
-	 *
-	 * @param string            $type    The action being performed
-	 * @param ComponentAdapter  $parent  The class calling this method
-	 *
-	 * @return void
-	 *
-	 * @since 1.3.0
-	 */
-	public function postflight($type, $parent)
-	{
-		$this->removeFiles();
 	}
 
 	/**
@@ -78,6 +65,21 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 		}
 
 		return true;
+	}
+
+	/**
+	 * Function to perform changes during postflight
+	 *
+	 * @param string            $type    The action being performed
+	 * @param ComponentAdapter  $parent  The class calling this method
+	 *
+	 * @return void
+	 *
+	 * @since 1.3.0
+	 */
+	public function postflight($type, $parent)
+	{
+		$this->removeFiles();
 	}
 
 	/**
