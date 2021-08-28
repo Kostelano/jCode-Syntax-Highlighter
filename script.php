@@ -9,7 +9,9 @@
 
 defined('_JEXEC') or die;
 
+use Joomla\CMS\Factory;
 use Joomla\CMS\Installer\InstallerScript;
+use Joomla\CMS\Language\Text;
 
 /**
  * Installation class to perform additional changes during Install / Uninstall / Update
@@ -94,7 +96,7 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 
 		if (!$version->isCompatible(self::MIN_VERSION_JOOMLA))
 		{
-			JFactory::getApplication()->enqueueMessage(JText::sprintf('JN_ERROR_JOOMLA_VERSION', $this->extensionName, self::MIN_VERSION_JOOMLA), 'error');
+			Factory::getApplication()->enqueueMessage(Text::sprintf('JN_ERROR_JOOMLA_VERSION', $this->extensionName, self::MIN_VERSION_JOOMLA), 'error');
 
 			return false;
 		}
@@ -112,7 +114,7 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 	{
 		if (!version_compare(phpversion(), self::MIN_VERSION_PHP, 'ge'))
 		{
-			JFactory::getApplication()->enqueueMessage(JText::sprintf('JN_ERROR_PHP_VERSION', $this->extensionName, self::MIN_VERSION_PHP), 'error');
+			Factory::getApplication()->enqueueMessage(Text::sprintf('JN_ERROR_PHP_VERSION', $this->extensionName, self::MIN_VERSION_PHP), 'error');
 
 			return false;
 		}
