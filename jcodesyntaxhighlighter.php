@@ -33,13 +33,13 @@ class PlgContentjCodeSyntaxHighlighter extends CMSPlugin
 				$combcss = $this->params->get('linenumbers', '1') . $this->params->get('previewers', '1');
 
 				if ($combcss == '01') {
-					$document->addStyleSheet(Uri::base($pathonly = true) . '/media/plg_content_jcodesyntaxhighlighter/css/previewers.css', array('version' => 'auto'));
+					$document->addStyleSheet(Uri::base($pathonly = true) . '/media/plg_content_jcodesyntaxhighlighter/combined/previewers.css', array('version' => 'auto'));
 
 				} else if ($combcss == '10') {
-					$document->addStyleSheet(Uri::base($pathonly = true) . '/media/plg_content_jcodesyntaxhighlighter/css/linenumbers.css', array('version' => 'auto'));
+					$document->addStyleSheet(Uri::base($pathonly = true) . '/media/plg_content_jcodesyntaxhighlighter/combined/linenumbers.css', array('version' => 'auto'));
 
 				} else if ($combcss == '11') {
-					$document->addStyleSheet(Uri::base($pathonly = true) . '/media/plg_content_jcodesyntaxhighlighter/css/linenumbers-previewers.css', array('version' => 'auto'));
+					$document->addStyleSheet(Uri::base($pathonly = true) . '/media/plg_content_jcodesyntaxhighlighter/combined/linenumbers-previewers.css', array('version' => 'auto'));
 
 				}
 
