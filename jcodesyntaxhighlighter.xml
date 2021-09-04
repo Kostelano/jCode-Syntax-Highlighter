@@ -25,6 +25,7 @@
 	</languages>
 
 	<media folder="media" destination="plg_content_jcodesyntaxhighlighter">
+		<folder>combined</folder>
 		<folder>css</folder>
 		<folder>js</folder>
 	</media>

@@ -27,7 +27,7 @@ class PlgContentjCodeSyntaxHighlighter extends CMSPlugin
 			if ($app->isClient('site'))
 			{
 				$document = Factory::getDocument();
-				$document->addStyleSheet(Uri::base($pathonly = true) . '/media/plg_content_jcodesyntaxhighlighter/css/' . $this->params->def('template', 'default') . '.css', array('version' => 'auto'));
+				$document->addStyleSheet(Uri::base($pathonly = true) . '/media/plg_content_jcodesyntaxhighlighter/css/' . $this->params->def('template', 'default'), array('version' => 'auto'));
 
 				// Load styles file depending on a combination of parameters
 				$combcss = $this->params->get('linenumbers', '1') . $this->params->get('previewers', '1');
