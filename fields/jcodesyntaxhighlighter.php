@@ -68,7 +68,8 @@ class JFormFieldjCodeSyntaxHighlighter extends FormField
 	{
 		$display = 'display_' . $this->getAttribute('display', '');
 
-		if (method_exists($this, $display)) {
+		if (method_exists($this, $display))
+		{
 			$output = $this->$display();
 
 		} else {
@@ -79,6 +80,13 @@ class JFormFieldjCodeSyntaxHighlighter extends FormField
 		return $output;
 	}
 
+	private function display_jtext()
+	{
+		$output = '<p>' . JText::_($this->getAttribute('value')) . '</p>';
+
+		return $output;		
+	}
+
 	private function display_changelog()
 	{
 		jimport('joomla.filesystem.file');
@@ -87,11 +95,13 @@ class JFormFieldjCodeSyntaxHighlighter extends FormField
 		$lang = substr(Factory::getLanguage()->getTag(), 0, 2);
 		$file = $output . '_' . $lang . '.txt';
 
-		if (!file_exists($file)) {
+		if (!file_exists($file))
+		{
 			$file = $output . '.txt';
 		}
 
-		if (file_exists($file)) {
+		if (file_exists($file))
+		{
 			$output = @file_get_contents($file);
 
 		} else {
