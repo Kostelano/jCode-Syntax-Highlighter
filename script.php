@@ -39,9 +39,9 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 	{
 		$this->deleteFiles = array(
 			// media
-			// '/media/plg_content_jcodesyntaxhighlighter/css/file1.css',
-			// '/media/plg_content_jcodesyntaxhighlighter/css/file2.css',
-			// '/media/plg_content_jcodesyntaxhighlighter/css/file3.css',
+			'/media/plg_content_jcodesyntaxhighlighter/css/linenumbers.css',
+			'/media/plg_content_jcodesyntaxhighlighter/css/linenumbers-previewers.css',
+			'/media/plg_content_jcodesyntaxhighlighter/css/previewers.css',
 		);
 	}
 
