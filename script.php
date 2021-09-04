@@ -16,7 +16,7 @@ use Joomla\CMS\Language\Text;
 /**
  * Installation class to perform additional changes during Install / Uninstall / Update
  *
- * @since 1.3.0
+ * @since 1.2.0
  */
 class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 {
@@ -27,6 +27,8 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 	 * Name of extension that is used in the error message
 	 *
 	 * @var string
+	 *
+	 * @since 1.2.0
 	 */
 	protected $extensionName = 'jCode Syntax Highlighter';
 
@@ -38,7 +40,7 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 	public function __construct()
 	{
 		$this->deleteFiles = array(
-			// media
+			// From 1.2.1 to 1.3.0
 			'/media/plg_content_jcodesyntaxhighlighter/css/linenumbers.css',
 			'/media/plg_content_jcodesyntaxhighlighter/css/linenumbers-previewers.css',
 			'/media/plg_content_jcodesyntaxhighlighter/css/previewers.css',
@@ -53,6 +55,8 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 	 *
 	 * @return bool
 	 * @throws Exception
+	 *
+	 * @since 1.2.0
 	 */
 	public function preflight($type, $parent)
 	{
@@ -89,6 +93,8 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 	 *
 	 * @return bool
 	 * @throws Exception
+	 *
+	 * @since 1.2.0
 	 */
 	private function checkVersionJoomla()
 	{
@@ -109,6 +115,8 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 	 *
 	 * @return bool
 	 * @throws Exception
+	 *
+	 * @since 1.2.0
 	 */
 	private function checkVersionPhp()
 	{
