@@ -36,16 +36,14 @@
 			<fieldset name="basic">
 				<field
 					name="template"
-					type="list"
-					default="default"
+					type="filelist"
+					directory="media/plg_content_jcodesyntaxhighlighter/css"
+					filter="(.*).css"
+					hide_none="true"
+					hide_default="true"
+					default="default.css"
 					label="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_LABEL"
-					description="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_DESC">
-						<option value="coy">Coy</option>
-						<option value="dark">Dark</option>
-						<option value="default">Default</option>
-						<option value="okaidia">Okaidia</option>
-						<option value="tomorrownight">Tomorrow Night</option>
-				</field>
+					description="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_DESC" />
 				<field
 					name="linenumbers"
 					type="radio"
