@@ -9,7 +9,16 @@
 
 defined('_JEXEC') or die;
 
-class PlgContentjCodeSyntaxHighlighterInstallerScript
+use Joomla\CMS\Factory;
+use Joomla\CMS\Installer\InstallerScript;
+use Joomla\CMS\Language\Text;
+
+/**
+ * Installation class to perform additional changes during Install / Uninstall / Update
+ *
+ * @since 1.2.0
+ */
+class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 {
 	const MIN_VERSION_JOOMLA = '3.9.0';
 	const MIN_VERSION_PHP = '7.2.0';
@@ -18,8 +27,25 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript
 	 * Name of extension that is used in the error message
 	 *
 	 * @var string
+	 *
+	 * @since 1.2.0
 	 */
 	protected $extensionName = 'jCode Syntax Highlighter';
+
+	/**
+	 * Extension script constructor
+	 *
+	 * @since 1.3.0
+	 */
+	public function __construct()
+	{
+		$this->deleteFiles = array(
+			// From 1.2.1 to 1.3.0
+			'/media/plg_content_jcodesyntaxhighlighter/css/linenumbers.css',
+			'/media/plg_content_jcodesyntaxhighlighter/css/linenumbers-previewers.css',
+			'/media/plg_content_jcodesyntaxhighlighter/css/previewers.css',
+		);
+	}
 
 	/**
 	 * Checks compatibility in the preflight event
@@ -29,14 +55,18 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript
 	 *
 	 * @return bool
 	 * @throws Exception
+	 *
+	 * @since 1.2.0
 	 */
 	public function preflight($type, $parent)
 	{
-		if (!$this->checkVersionJoomla()) {
+		if (!$this->checkVersionJoomla())
+		{
 			return false;
 		}
 
-		if (!$this->checkVersionPhp()) {
+		if (!$this->checkVersionPhp())
+		{
 			return false;
 		}
 
@@ -44,17 +74,35 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript
 	}
 
 	/**
+	 * Function to perform changes during postflight
+	 *
+	 * @param string            $type    The action being performed
+	 * @param ComponentAdapter  $parent  The class calling this method
+	 *
+	 * @return void
+	 *
+	 * @since 1.3.0
+	 */
+	public function postflight($type, $parent)
+	{
+		$this->removeFiles();
+	}
+
+	/**
 	 * Checking the used version of Joomla
 	 *
 	 * @return bool
 	 * @throws Exception
+	 *
+	 * @since 1.2.0
 	 */
 	private function checkVersionJoomla()
 	{
 		$version = new JVersion();
 
-		if (!$version->isCompatible(self::MIN_VERSION_JOOMLA)) {
-			JFactory::getApplication()->enqueueMessage(JText::sprintf('JN_ERROR_JOOMLA_VERSION', $this->extensionName, self::MIN_VERSION_JOOMLA), 'error');
+		if (!$version->isCompatible(self::MIN_VERSION_JOOMLA))
+		{
+			Factory::getApplication()->enqueueMessage(Text::sprintf('JN_ERROR_JOOMLA_VERSION', $this->extensionName, self::MIN_VERSION_JOOMLA), 'error');
 
 			return false;
 		}
@@ -67,11 +115,14 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript
 	 *
 	 * @return bool
 	 * @throws Exception
+	 *
+	 * @since 1.2.0
 	 */
 	private function checkVersionPhp()
 	{
-		if (!version_compare(phpversion(), self::MIN_VERSION_PHP, 'ge')) {
-			JFactory::getApplication()->enqueueMessage(JText::sprintf('JN_ERROR_PHP_VERSION', $this->extensionName, self::MIN_VERSION_PHP), 'error');
+		if (!version_compare(phpversion(), self::MIN_VERSION_PHP, 'ge'))
+		{
+			Factory::getApplication()->enqueueMessage(Text::sprintf('JN_ERROR_PHP_VERSION', $this->extensionName, self::MIN_VERSION_PHP), 'error');
 
 			return false;
 		}
