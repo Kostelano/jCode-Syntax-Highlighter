@@ -87,6 +87,15 @@
 				</field>
 			</fieldset>
 
+			<fieldset name="information" addfieldpath="plugins/content/jcodesyntaxhighlighter/fields">
+				<field
+					name="information"
+					type="jcodesyntaxhighlighter"
+					hidden="true"
+					display="jtext"
+					value="PLG_JCODE_SYNTAX_HIGHLIGHTER_INFORMATION" />
+			</fieldset>
+
 			<fieldset name="changelog" addfieldpath="plugins/content/jcodesyntaxhighlighter/fields">
 				<field
 					name="changelog"
