@@ -82,7 +82,7 @@ class JFormFieldjCodeSyntaxHighlighter extends FormField
 
 	private function display_jtext()
 	{
-		$output = '<p>' . JText::_($this->getAttribute('value')) . '</p>';
+		$output = '<div>' . JText::_($this->getAttribute('value')) . '</div>';
 
 		return $output;		
 	}
@@ -109,7 +109,7 @@ class JFormFieldjCodeSyntaxHighlighter extends FormField
 
 		}
 
-		$output = '<pre style="display: inline-block; width: 98%; overflow: visible;">' .$output. '</pre>';
+		$output = '<pre>' . $output . '</pre>';
 
 		return $output;
 	}
