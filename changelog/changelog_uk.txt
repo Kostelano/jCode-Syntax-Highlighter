@@ -1,12 +1,12 @@
 # 21.11.2020 | Версія 1.2.1
-- виправлена помилка відображення поля вибору шаблону для Joomla 4.0,
-- виправлена помилка відображення вкладки "Зміни версій" для Joomla 4.0.
+- виправлена помилка відображення поля вибору шаблону в Joomla 4.0,
+- виправлена помилка відображення вкладки "Зміни версій" в Joomla 4.0.
 
 # 14.11.2020 | Версія 1.2.0
 - плагін оновлено до версії Prism JS 1.22.0, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1220-2020-10-10,
 - додано скрипт для перевірки мінімальних системних вимог (Joomla 3.9, PHP 7.2),
-- оновлені назви класів для Joomla 3.9 / 4.0 (API),
-- виправлена помилка виклику невизначеного методу для Joomla 4.0.
+- оновлені назви класів для Joomla 3.9 та 4.0,
+- виправлена помилка виклику невизначеного методу в Joomla 4.0.
 
 # 03.02.2020 | Версія 1.0.1
 - плагін оновлено до версії Prism JS 1.19.0, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1190-2020-01-13,
@@ -17,5 +17,4 @@
 - плагін створено на основі модульної бібліотеки Prism JS 1.18.0, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1180-2020-01-04,
 - додано скрипти: line numbers, autolinker, previewers, copy to clipboard button,
 - додано мови: C, C++, C#, CSS, HTML/XML, Java, Javascript, MathML, PHP, Python, Ruby, SQL, SVG,
-- додано шаблони: default, dark, okaidia, tomorrow night,
-- додано сервер для автоматичного оновлення плагіна в панелі керування.
+- додано шаблони: default, dark, okaidia, tomorrow night.

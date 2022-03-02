@@ -1,12 +1,12 @@
 # 21.11.2020 | Version 1.2.1
-- fixed bug in displaying the template selection field for Joomla 4.0,
-- fixed bug in displaying the "Changelog" tab for Joomla 4.0.
+- fixed bug in displaying the template selection field in Joomla 4.0,
+- fixed bug in displaying the "Changelog" tab in Joomla 4.0.
 
 # 14.11.2020 | Version 1.2.0
 - plugin updated to Prism JS 1.22.0, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1220-2020-10-10,
 - added script to check the minimum system requirements (Joomla 3.9, PHP 7.2),
-- updated class names for Joomla 3.9 / 4.0 (API),
-- fixed bug of calling undefined method for Joomla 4.0.
+- updated class names for Joomla 3.9 and 4.0,
+- fixed bug of calling undefined method in Joomla 4.0.
 
 # 03.02.2020 | Version 1.0.1
 - plugin updated to Prism JS 1.19.0, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1190-2020-01-13,
@@ -17,5 +17,4 @@
 - plugin is based on the Prism JS 1.18.0 modular library, https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1180-2020-01-04,
 - added scripts: line numbers, autolinker, previewers, copy to clipboard button,
 - added languages: C, C++, C#, CSS, HTML/XML, Java, Javascript, MathML, PHP, Python, Ruby, SQL, SVG,
-- added templates: default, dark, okaidia, tomorrow night,
-- added server to automatically update the plugin in the control panel.
+- added templates: default, dark, okaidia, tomorrow night.
