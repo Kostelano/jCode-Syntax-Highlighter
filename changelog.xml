@@ -19,7 +19,7 @@
 				<item>Добавлен скрипт для проверки минимальных системных требований (Joomla 3.9, PHP 7.2),</item>
 			</addition>
 			<change>
-				<item>Обновлены названия классов в Joomla 3.9 и 4.0,</item>
+				<item>Обновлены названия классов для Joomla 3.9 и 4.0,</item>
 			</change>
 			<note>
 				<item><![CDATA[Плагин обновлен до версии <a href="https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1220-2020-10-10">Prism JS 1.22.0</a>.]]></item>
