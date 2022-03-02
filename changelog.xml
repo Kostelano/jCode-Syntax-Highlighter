@@ -1,0 +1,55 @@
+<changelogs>
+	<changelog>
+		<element>jcodesyntaxhighlighter</element>
+		<type>plugin</type>
+		<version>1.2.1</version>
+			<fix>
+				<item>Исправлена ошибка отображения поля выбора шаблона в Joomla 4.0,</item>
+				<item>Исправлена ошибка отображения вкладки "Изменения версий" в Joomla 4.0.</item>
+			</fix>
+	</changelog>
+	<changelog>
+		<element>jcodesyntaxhighlighter</element>
+		<type>plugin</type>
+		<version>1.2.0</version>
+			<fix>
+				<item>Исправлена ошибка вызова неопределенного метода в Joomla 4.0,</item>
+			</fix>
+			<addition>
+				<item>Добавлен скрипт для проверки минимальных системных требований (Joomla 3.9, PHP 7.2),</item>
+			</addition>
+			<change>
+				<item>Обновлены названия классов в Joomla 3.9 и 4.0,</item>
+			</change>
+			<note>
+				<item><![CDATA[Плагин обновлен до версии <a href="https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1220-2020-10-10">Prism JS 1.22.0</a>.]]></item>
+			</note>
+	</changelog>
+	<changelog>
+		<element>jcodesyntaxhighlighter</element>
+		<type>plugin</type>
+		<version>1.0.1</version>
+			<addition>
+				<item>Добавлен язык: LESS,</item>
+			</addition>
+			<language>
+				<item>Добавлены локализации: английская (en-GB), украинская (uk-UA),</item>
+			</language>
+			<note>
+				<item><![CDATA[Плагин обновлен до версии <a href="https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1190-2020-01-13">Prism JS 1.19.0</a>.]]></item>
+			</note>
+	</changelog>
+	<changelog>
+		<element>jcodesyntaxhighlighter</element>
+		<type>plugin</type>
+		<version>1.0.0</version>
+			<addition>
+				<item>Добавлены скрипты: line numbers, autolinker, previewers, copy to clipboard button,</item>
+				<item>Добавлены языки: C, C++, C#, CSS, HTML/XML, Java, Javascript, MathML, PHP, Python, Ruby, SQL, SVG,</item>
+				<item>Добавлены шаблоны: default, dark, okaidia, tomorrow night,</item>
+			</addition>
+			<note>
+				<item><![CDATA[Плагин создан на основе модульной библиотеки <a href="https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1180-2020-01-04">Prism JS 1.18.0</a>.]]></item>
+			</note>
+	</changelog>
+</changelogs>
