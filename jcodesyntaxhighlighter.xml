@@ -43,8 +43,7 @@
 					hide_none="true"
 					hide_default="true"
 					default="default.css"
-					label="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_LABEL"
-					description="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_DESC" />
+					label="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_LABEL" />
 				<field
 					name="linenumbers"
 					type="radio"

@@ -2,7 +2,7 @@
 
 # jCode Syntax Highlighter
 Plugin for syntax highlighting code in Joomla content based on the modular library [Prism JS](https://prismjs.com).  
-Languages: `C`, `C++`, `C#`, `CSS`, `HTML/XML`, `Java`, `Javascript`, `LESS`, `MathML`, `PHP`, `Python`, `Ruby`, `SQL`, `SVG`.
+Languages: `BBCode`, `C`, `C++`, `C#`, `CSS`, `HTML/XML`, `Java`, `Javascript`, `JSON`, `LESS`, `MathML`, `PHP`, `Python`, `Ruby`, `SQL`, `SVG`.
 
 ## Project page
 [jCode Syntax Highlighter](https://jnotes.net.ua/ext/jcode-syntax-highlighter) | [Joomla! Extensions Directory](https://extensions.joomla.org/extension/jcode-syntax-highlighter)
@@ -11,7 +11,7 @@ Languages: `C`, `C++`, `C#`, `CSS`, `HTML/XML`, `Java`, `Javascript`, `LESS`, `M
 ![version](https://img.shields.io/badge/stable-1.2.1-blue?style=for-the-badge) ![version](https://img.shields.io/badge/dev-1.3.0-red?style=for-the-badge)
 
 ## System requirements
-![joomla-version](https://img.shields.io/badge/joomla-3.9-green?style=for-the-badge) ![joomla-version](https://img.shields.io/badge/joomla-4.0-informational?style=for-the-badge) ![php-version](https://img.shields.io/badge/php-7.2-orange?style=for-the-badge)
+![joomla-version](https://img.shields.io/badge/joomla-3.10-green?style=for-the-badge) ![joomla-version](https://img.shields.io/badge/joomla-4.1-informational?style=for-the-badge) ![php-version](https://img.shields.io/badge/php-7.2-orange?style=for-the-badge)
 
 ## Copyright
 Copyright (C) 2019 - 2022 Konstantin Kolos, [Jnotes.net.ua](https://jnotes.net.ua). All rights reserved.
