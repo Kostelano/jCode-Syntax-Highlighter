@@ -43,8 +43,7 @@
 					hide_none="true"
 					hide_default="true"
 					default="default.css"
-					label="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_LABEL"
-					description="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_DESC" />
+					label="PLG_JCODE_SYNTAX_HIGHLIGHTER_TEMPLATE_LABEL" />
 				<field
 					name="linenumbers"
 					type="radio"
@@ -106,6 +105,8 @@
 			</fieldset>
 		</fields>
 	</config>
+
+	<changelogurl><![CDATA[https://raw.githubusercontent.com/Kostelano/jCode-Syntax-Highlighter/master/changelog.xml]]></changelogurl>
 
 	<updateservers>
 		<server type="extension" name="PLG_JCODE_SYNTAX_HIGHLIGHTER" priority="1"><![CDATA[https://raw.githubusercontent.com/Kostelano/jCode-Syntax-Highlighter/master/manifest.xml]]></server>
