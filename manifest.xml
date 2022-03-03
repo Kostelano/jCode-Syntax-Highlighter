@@ -16,7 +16,7 @@
 		<maintainer><![CDATA[ Jnotes.net.ua ]]></maintainer>
 		<maintainerurl>https://jnotes.net.ua</maintainerurl>
 		<section>Updates</section>
-		<targetplatform name="joomla" version="((3\.(9|10))|(4\.(0|1)))"/>
+		<targetplatform name="joomla" version="((3\.(9|10))|(4\.(0|1|2)))"/>
 		<client>site</client>
 	</update>
 </updates>
