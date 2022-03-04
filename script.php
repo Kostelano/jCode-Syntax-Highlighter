@@ -44,6 +44,7 @@ class PlgContentjCodeSyntaxHighlighterInstallerScript extends InstallerScript
 			'/media/plg_content_jcodesyntaxhighlighter/css/linenumbers.css',
 			'/media/plg_content_jcodesyntaxhighlighter/css/linenumbers-previewers.css',
 			'/media/plg_content_jcodesyntaxhighlighter/css/previewers.css',
+			'/media/plg_content_jcodesyntaxhighlighter/js/clipboard.min.js',
 		);
 	}
 
