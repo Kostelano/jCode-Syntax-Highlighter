@@ -2,10 +2,23 @@
 	<changelog>
 		<element>jcodesyntaxhighlighter</element>
 		<type>plugin</type>
+		<version>1.3.0</version>
+			<fix>
+				<item>Исправлена ошибка отображения вкладки "Изменения версий" в Joomla 4.1,</item>
+			</fix>
+			<addition>
+				<item>Добавлены языки: BBCode, JSON,</item>
+			</addition>
+			<note>
+				<item><![CDATA[Плагин обновлен до версии <a href="https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1270-2022-02-17">Prism JS 1.27.0</a>.]]></item>
+			</note>
+	</changelog>
+	<changelog>
+		<element>jcodesyntaxhighlighter</element>
+		<type>plugin</type>
 		<version>1.2.1</version>
 			<fix>
-				<item>Исправлена ошибка отображения поля выбора шаблона в Joomla 4.0,</item>
-				<item>Исправлена ошибка отображения вкладки "Изменения версий" в Joomla 4.0.</item>
+				<item>Исправлена ошибка отображения поля выбора шаблона в Joomla 4.0.</item>
 			</fix>
 	</changelog>
 	<changelog>
@@ -46,7 +59,7 @@
 			<addition>
 				<item>Добавлены скрипты: line numbers, autolinker, previewers, copy to clipboard button,</item>
 				<item>Добавлены языки: C, C++, C#, CSS, HTML/XML, Java, Javascript, MathML, PHP, Python, Ruby, SQL, SVG,</item>
-				<item>Добавлены шаблоны: default, dark, okaidia, tomorrow night,</item>
+				<item>Добавлены шаблоны: coy, dark, default, okaidia, tomorrow night,</item>
 			</addition>
 			<note>
 				<item><![CDATA[Плагин создан на основе модульной библиотеки <a href="https://github.com/prismjs/prism/blob/master/CHANGELOG.md#1180-2020-01-04">Prism JS 1.18.0</a>.]]></item>
