@@ -106,8 +106,6 @@
 		</fields>
 	</config>
 
-	<changelogurl><![CDATA[https://raw.githubusercontent.com/Kostelano/jCode-Syntax-Highlighter/master/changelog.xml]]></changelogurl>
-
 	<updateservers>
 		<server type="extension" name="PLG_JCODE_SYNTAX_HIGHLIGHTER" priority="1"><![CDATA[https://raw.githubusercontent.com/Kostelano/jCode-Syntax-Highlighter/master/manifest.xml]]></server>
 	</updateservers>	
