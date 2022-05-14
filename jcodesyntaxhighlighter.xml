@@ -21,6 +21,8 @@
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.plg_content_jcodesyntaxhighlighter.ini</language>
 		<language tag="en-GB">en-GB/en-GB.plg_content_jcodesyntaxhighlighter.sys.ini</language>
+		<language tag="it-IT">it-IT/it-IT.plg_content_jcodesyntaxhighlighter.ini</language>
+		<language tag="it-IT">it-IT/it-IT.plg_content_jcodesyntaxhighlighter.sys.ini</language>
 		<language tag="ru-RU">ru-RU/ru-RU.plg_content_jcodesyntaxhighlighter.ini</language>
 		<language tag="ru-RU">ru-RU/ru-RU.plg_content_jcodesyntaxhighlighter.sys.ini</language>
 		<language tag="uk-UA">uk-UA/uk-UA.plg_content_jcodesyntaxhighlighter.ini</language>
